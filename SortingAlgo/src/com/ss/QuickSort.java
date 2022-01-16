@@ -1,7 +1,15 @@
 package com.ss;
 
 public class QuickSort implements Sorting {
-
+    /*
+    Quicksort Complexity
+        Time Complexity
+            Best	O(n*log n)
+            Worst	O(n2)
+            Average	O(n*log n)
+        Space Complexity	O(log n)
+        Stability	No
+    * */
     private int partition(int[] ud, int start, int end) {
         int pivot = ud[end];
         int greaterValuePointer = start - 1;

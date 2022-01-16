@@ -20,6 +20,13 @@ public class DataSort
         System.out.println("---Data after sort algorithm ----");
         printData(unsortedData);
         /* Sorting data using merge sort ends here */
+
+        /* Sorting data using the heap sort */
+        Sorting heapSort = new HeapSort();
+        heapSort.sortingData(unsortedData, 0, unsortedData.length-1);
+        System.out.println("---Data after sort algorithm ----");
+        printData(unsortedData);
+        /* Sorting data using heap sort ends here */
     }
 
     private static void printData(int[] data) {

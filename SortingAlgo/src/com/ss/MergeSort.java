@@ -2,6 +2,15 @@ package com.ss;
 
 
 public class MergeSort implements Sorting {
+    /*
+    Merge Sort Complexity
+        Time Complexity
+            Best	O(n*log n)
+            Worst	O(n*log n)
+            Average	O(n*log n)
+        Space Complexity	O(n)
+        Stability	Yes
+    * */
     @Override
     public void sortingData(int[] a, int start, int end) {
         if (start < end) {
